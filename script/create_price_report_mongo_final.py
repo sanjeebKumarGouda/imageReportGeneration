@@ -1,9 +1,7 @@
-#!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-Created on Mon Jan 25 12:04:02 2021
-
-@author: himanshusolanki
+Created on Sat Jul 17 09:31:45 2021
+@author: Sanjeeb
 """
 
 # importing pymongo
@@ -490,7 +488,7 @@ if __name__ == "__main__":
 
     print("Importing data from mongo")
     try:
-        connect = MongoClient("mongodb://hemant:gramoday%40123@3.6.249.31:41027/?authSource=gramoday_new&readPreference=primary&appname=MongoDB%20Compass&ssl=false")
+        connect = MongoClient("Enter your Connection String URI of MongoDB")
         print("Connected successfully!!!")
     except:
         print("Could not connect to MongoDB")
